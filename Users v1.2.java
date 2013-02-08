@@ -1,5 +1,6 @@
 /**
 *  Class Users is the superclass for the Gradebook Project
+*  Initial file was created in GitHub, update was synced from teh PC.
 *
 *  @author Juan Galvez
 *  @version 1.2 02/08/2013
