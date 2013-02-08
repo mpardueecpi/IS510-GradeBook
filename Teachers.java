@@ -13,7 +13,7 @@ import Integer;
 
 public class Teachers extends Users 
 {
-//my comment - Kasam Hamza
+
   public Integer teacherID;
 
   public void setTeacherID(integer teacherIdentification) 

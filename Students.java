@@ -1,9 +1,3 @@
-/**
-This is the Students class with the set and get methods
-@author Kasam Hamza
-@version 1.0.1
-**/
-
 package edu.ecpi.is510;
 
 import java.awt.*;
