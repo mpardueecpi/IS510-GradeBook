@@ -1,3 +1,8 @@
+/*
+@David Marshall 
+@Version 1.2
+*/
+
 public class Courses {
 
   private string courseID;
