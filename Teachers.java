@@ -1,3 +1,8 @@
+/**
+@author Michael Mahaffey
+@version 1.2
+**/
+
 package edu.ecpi.is510;
 
 import Integer[];
