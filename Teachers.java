@@ -1,4 +1,5 @@
 /**
+This is the Teacher class with the setters and getters methods
 @author Michael Mahaffey
 @version 1.2
 **/
