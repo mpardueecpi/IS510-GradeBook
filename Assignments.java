@@ -1,3 +1,11 @@
+/**
+
+@author Matthew March
+@version 1.2
+
+*/
+ 
+
 package edu.ecpi.is510;
 
 import String;
