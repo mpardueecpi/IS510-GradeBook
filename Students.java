@@ -1,33 +1,40 @@
-import java.util.Vector;
+package edu.ecpi.is510;
 
-public class Students extends Users {
+import java.awt.*;
+import java.util.ArrayList;
 
-  public String studentID;
+public class Students extends Users 
+{
+  protected String studentID;
+  protected String major;
+  protected String[] grades;
+  ArrayList<String> grades2 = new ArrayList<String>();
 
-  public String major;
-
-    /**
-   * 
-   * @element-type Assignments
-   */
-  public Vector  myAssignments;
-
-  public void setStudentID() {
+  public void setStudentID(String studentIDx) 
+  {
+	this.studentID = studentIDx;
   }
 
-  public String getStudentID() {
-  return null;
+  public String getStudentID() 
+  {  
+	  return studentID;
   }
 
-  public void setMajor() {
+  public void setMajor(String majorx) 
+  {
+	  this.major = majorx;
   }
 
-  public String getMajor() {
-  return null;
+  public String getMajor() 
+  {  
+	  return major;
   }
 
-  public String viewGrades() {
-  return null;
+  public String[] viewGrades() 
+  {  
+	  grades = new String[grades2.size()];
+	  String[] returnedArray = grades2.toArray(grades);
+	  return grades;
   }
 
 }
