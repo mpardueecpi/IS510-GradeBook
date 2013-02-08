@@ -57,7 +57,7 @@ public class Courses {
 
   public string setTermID(string TID) 
   {
-  thid.termID = TID;
+  this.termID = TID;
   }
 
   public integer getCredits() 
