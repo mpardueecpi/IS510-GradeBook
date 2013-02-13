@@ -7,7 +7,7 @@ public class Students extends Users
 {
   protected String studentID;
   protected String major;
-  protected Integer grade;
+  protected String grade;
   protected String[] grades;
   ArrayList<String> grades2 = new ArrayList<String>();
 
@@ -31,7 +31,7 @@ public class Students extends Users
 	  return major;
   }
   
-  public Integer viewGrade(String studentID, String courseID)
+  public String viewGrade(String studentID, String courseID)
   {
 	return grade;
   }
