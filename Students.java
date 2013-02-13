@@ -7,6 +7,7 @@ public class Students extends Users
 {
   protected String studentID;
   protected String major;
+  protected Integer grade;
   protected String[] grades;
   ArrayList<String> grades2 = new ArrayList<String>();
 
@@ -29,8 +30,13 @@ public class Students extends Users
   {  
 	  return major;
   }
+  
+  public Integer viewGrade(String studentID, String courseID)
+  {
+	return grade;
+  }
 
-  public String[] viewGrades() 
+  public String[] viewGrades1() 
   {  
 	  grades = new String[grades2.size()];
 	  String[] returnedArray = grades2.toArray(grades);
