@@ -1,14 +1,13 @@
 package gradebookgui;
 
-public class Teacher {
+public class Student {
 	private String name;
 	private String id;
 	
-	public Teacher(String n, String i)
+	public Student(String n, String i)
 	{
 	 name = n;
 	 id = i;
-
 	}
 	
 	
